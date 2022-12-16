@@ -1,0 +1,187 @@
+body {
+    /* background-image: url('img/banner.jpeg'); */
+    background-color: hsl(219,41%,15%);
+    background-image: radial-gradient(
+      650px circle at 0% 0%,
+      hsl(219,41%,15%) 15%,
+      hsl(219,41%,30%) 35%,
+      hsl(219,41%,20%) 75%,
+      hsl(219,41%,19%) 80%,
+      transparent 100%
+    ),
+    radial-gradient(
+      650px circle at 0% 100%,
+      hsl(219,41%,15%) 15%,
+      hsl(219,41%,30%) 35%,
+      hsl(219,41%,20%) 75%,
+      hsl(219,41%,19%) 80%,
+      transparent 100%
+    ),
+    radial-gradient(
+      650px circle at 100% 0%,
+      hsl(219,41%,15%) 15%,
+      hsl(219,41%,30%) 35%,
+      hsl(219,41%,20%) 75%,
+      hsl(219,41%,19%) 80%,
+      transparent 100%
+    ),
+    radial-gradient(
+      650px circle at 100% 100%,
+      hsl(219,41%,15%) 15%,
+      hsl(219,41%,30%) 35%,
+      hsl(219,41%,20%) 75%,
+      hsl(219,41%,19%) 80%,
+      transparent 100%
+    );
+    box-sizing: border-box;
+    color: white;
+    /* overflow-y: hidden; */
+    scroll-behavior: smooth;
+    
+  }
+
+.img1{
+  width: 7rem;
+  height: 6rem;
+}
+
+.user-img{
+  width: 10rem;
+  height: 10rem;
+  border: 0.2rem solid #44006b;
+}
+
+  #shape-1{
+    height: 80vh;
+    width: 90vw;
+    background: linear-gradient(#44006b,#ad1fff);
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    backdrop-filter: blur(10rem);
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    overflow: hidden;
+  }
+
+  .image{
+    width: 10rem;
+  height: 10rem;
+  }
+
+  .card{
+    color: white;
+    width:  90%;
+    max-width: 300px;
+    padding: 5rem 2.5rem;
+
+    border-radius: 1rem;
+    border: 1px solid transparent;
+
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+
+    border-top-color: rgba(225, 225, 225, 0.5);
+    border-left-color: rgba(225, 225, 225, 0.5);
+    border-bottom-color: rgba(225, 225, 225, 0.1);
+    border-right-color: rgba(225, 225, 225, 0.1);
+    transition: 0.4s all;
+  
+  }
+
+.card:hover{
+  background: linear-gradient(#44006b,#ad1fff);
+  transform: scale(1.05);
+  border-radius: 2rem;
+  border: 1px solid gold;
+}
+
+.cb1{
+    background-color: rgba(225, 225, 225, 0.1);
+    backdrop-filter: blur(10rem);
+}
+
+.carousal-data>p{
+  font-weight: 500;
+  font-size: large;
+}
+.carousal-heading{
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.carousal-data{
+    color: white;
+    width:  50%;
+    margin: 10rem 5rem;
+    /* overflow: hidden; */
+}
+
+.container>h1{
+  align-self: center;
+}
+
+
+
+.earning-header{
+  color: white;
+  font-weight: 500;
+  font-size: x-large;
+  margin-left: 10px;
+  /* text-decoration: underline dashed; */
+}
+
+.earning-block{
+  width: 10rem;
+  margin-top: 1.5rem;
+  height: max-content;
+  background:linear-gradient(#8912ce,#240238);
+  color: gold;
+  font-size: x-large;
+  font-weight: 300;
+  padding: 2px;
+  align-content: center;
+  justify-content: center;
+}
+.earning-value{
+  color: gold;
+  font-size: larger;
+  font-weight: 700;
+  padding: 0px 2px;
+  margin-left: 21%;
+  /* margin-left: 35%; */
+}
+.redeem{
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.transaction{
+  width: 100%;
+  margin-top: 1rem;
+  height: 100px;
+  background:linear-gradient(#8912ce,#870ecc);
+  color: gold;
+  font-size: x-large;
+  font-weight: 600;
+  padding: 2px;
+  align-content: center;
+  justify-content: center;
+  overflow: visible;
+  border-radius: 1rem;
+    border: 1px solid transparent;
+}
+
+
+.credited-value{
+  color: yellow;
+  font-size: larger;
+  font-weight: 700;
+  padding: 0px 2px;
+  margin-left: 21%;
+}
+
+.faq-row{
+  overflow: scroll;
+}

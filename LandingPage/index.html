@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mCash : Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./css/scrollingcards.css"/> -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="https://kit.fontawesome.com/33c78f7b57.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark pb-3">
+      <div class="container">
+        <!-- <a class="navbar-brand" href="#">mCash</a> -->
+        <a href="./index.html"><img src="./img/logo.png" class="img1" alt="..." /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="#carouselExampleControls">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="#offers">Offers</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="#games">Play Online</a>
+            </li>
+            <!-- offcanvas -->
+            <li class="nav-item mx-2">
+              <button class="btn btn-dark  text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-user fa-xl"></i></button>
+            </li>
+
+
+
+          </ul>
+
+          
+        </div>
+      </div>
+    </nav>
+
+      <!-- offcanvasdata  -->
+        
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <button type="button" class="btn-close text-reset btn-close-white m-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div class="offcanvas-header">
+
+          <div class="name">
+            <h3 class="offcanvas-title" id="offcanvasRightLabel">Vishwa Patil</h3>
+            <h6 class="text-muted">patilvishwa@gmail.com</h6>
+          </div>
+          <a href=""><img src="./img/user.png" class="user-img" alt="..." /></a>
+        </div>
+        <div class="offcanvas-body">
+          <div class="container">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-md-6 justify-content-center align-items-center">
+                <div class="earning-header">
+                  My Earnings
+                </div>
+                <div class="earning-content">
+                  <div class="earning-block"> 
+                    <div class="col earning-value"><i class=" fa-solid fa-coins fa-sm"></i>100</div>
+                  </div>
+                  <div class="mt-3 mx-5"> 
+                    <a target="_blank" href="https://www.bing.com/ck/a?!&&p=bdb8c9f601acd46aJmltdHM9MTY3MTE0ODgwMCZpZ3VpZD0yZTRhMWJiYy1iN2IyLTY0MGYtMjc3NS0wYWZlYjYxYTY1N2YmaW5zaWQ9NTIxOA&ptn=3&hsh=3&fclid=2e4a1bbc-b7b2-640f-2775-0afeb61a657f&psq=mCash&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWluLm1jYXNoLmFwcCZnbD1VUw&ntb=1"><div class="col redeem">Redeem</div></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <hr/>
+
+            <div class="transaction-header">
+              <div class="earning-header">
+                Transactions
+              </div>
+            </div>
+
+            <!-- trnsaction 1 -->
+            <div class="row transaction">
+              <div class="col text-light ">
+                <i class="fa-sharp fa-solid fa-dice"></i>
+                Ludo 
+              </div>
+              <div class="col">
+                <div class="col credited-value"><i class=" fa-solid fa-coins fa-sm"></i>+30</div>
+              </div>
+            </div>
+
+            <!-- transaction 2 -->
+            <div class="row transaction">
+              <div class="col text-light ">
+                <i class="fa-solid fa-chess-board"></i>
+                Chess 
+              </div>
+              <div class="col">
+                <div class="col credited-value"><i class=" fa-solid fa-coins fa-sm"></i>+10</div>
+              </div>
+            </div>
+
+            <!-- transaction 3 -->
+            <div class="row transaction">
+              <div class="col text-light ">
+                <i class="fa-solid fa-ghost"></i>
+                Ghost  
+              </div>
+              <div class="col">
+                <div class="col credited-value"><i class=" fa-solid fa-coins fa-sm"></i>+20</div>
+              </div>
+            </div>
+
+            <!-- transaction 4 -->
+            <div class="row transaction">
+              <div class="col text-light ">
+                <i class="fa-solid fa-chess-board"></i>
+                Chess 
+              </div>
+              <div class="col">
+                <div class="col credited-value"><i class=" fa-solid fa-coins fa-sm"></i>+100</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>     
+
+    <!-- Banner Image  --> 
+    <!-- <div class="row banner-image w-100 vh-100 d-flex justify-content-center align-items-center justify-content-around">
+      <div class="content text-center">
+          <div class=""
+          id="shape-1"
+          class="  strong-5-strong"
+        ></div>
+      </div>  -->
+
+
+    <div id="carouselExampleControls" class="col carousel slide mt-lg-5" data-bs-ride="carousel">
+      <div class="carousel-cust carousel-inner">
+
+        <div class="carousel-item active">
+            <div  id="shape-1" class="d-flex flex-column justify-content-center align-items-center">
+              <div class="carousal-data">
+                <div class="carousal-heading">
+                  Challenges
+                </div>
+                <img src="./img/trophy.png" class="image" alt="..." />
+                <p>Complete challenges to earn extra rewards</p>
+                <a href="https://www.bing.com/ck/a?!&&p=bdb8c9f601acd46aJmltdHM9MTY3MTE0ODgwMCZpZ3VpZD0yZTRhMWJiYy1iN2IyLTY0MGYtMjc3NS0wYWZlYjYxYTY1N2YmaW5zaWQ9NTIxOA&ptn=3&hsh=3&fclid=2e4a1bbc-b7b2-640f-2775-0afeb61a657f&psq=mCash&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWluLm1jYXNoLmFwcCZnbD1VUw&ntb=1" target="_blank" class="col-4 btn btn-outline-light">Get Coins</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="carousel-item ">
+          <div  id="shape-1" class="d-flex flex-column justify-content-center align-items-center">
+            
+            <div class="carousal-data ">
+              <div class="carousal-heading">
+                Daily Rewards
+              </div>
+              <img src="./img/gift.png" class="image "  alt="..." />
+              <p>Complete daily tasks to earn extra rewards</p>
+              <a href="https://www.bing.com/ck/a?!&&p=bdb8c9f601acd46aJmltdHM9MTY3MTE0ODgwMCZpZ3VpZD0yZTRhMWJiYy1iN2IyLTY0MGYtMjc3NS0wYWZlYjYxYTY1N2YmaW5zaWQ9NTIxOA&ptn=3&hsh=3&fclid=2e4a1bbc-b7b2-640f-2775-0afeb61a657f&psq=mCash&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWluLm1jYXNoLmFwcCZnbD1VUw&ntb=1" target="_blank" class="col-4 btn btn-outline-light">Get Coins</a>
+            </div>
+           
+          </div>
+        </div>
+
+          <div class="carousel-item ">
+            <div  id="shape-1" class="d-flex flex-column justify-content-center align-items-center">
+              <div class="carousal-data">
+                <div class="carousal-heading">
+                  Spin and Win
+                </div>
+                <img src="./img/spin.png" class="image" alt="..." />
+                <p>Spin the wheel of rewards and win big</p>
+                <a href="https://www.bing.com/ck/a?!&&p=bdb8c9f601acd46aJmltdHM9MTY3MTE0ODgwMCZpZ3VpZD0yZTRhMWJiYy1iN2IyLTY0MGYtMjc3NS0wYWZlYjYxYTY1N2YmaW5zaWQ9NTIxOA&ptn=3&hsh=3&fclid=2e4a1bbc-b7b2-640f-2775-0afeb61a657f&psq=mCash&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWluLm1jYXNoLmFwcCZnbD1VUw&ntb=1" target="_blank" class="col-4 btn btn-outline-light">Get Coins</a>
+              </div>
+            </div>
+          </div>
+      </div>
+ 
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Main Content Area -->
+
+    
+
+
+    <div class="container my-5 d-grid gap-3 ">
+      
+      <center>  <h1 class="mb-5" id="offers">Offers</h1></center>
+   
+      <div class="row ">
+        
+        <div class="col-md-4 d-flex  justify-content-center mb-sm-5">
+          <div class="card m-2 cb1 text-center" style="width: 18rem">
+            
+            <i class="fa-solid fa-list-check fa-2xl  mb-3"></i>
+
+            <div class="card-body">
+              <h5 class="card-title">Task Offers</h5>
+
+              <p class="card-text">
+               Complete Tasks to get coins
+              </p>
+              <a href="https://www.bing.com/ck/a?!&&p=bdb8c9f601acd46aJmltdHM9MTY3MTE0ODgwMCZpZ3VpZD0yZTRhMWJiYy1iN2IyLTY0MGYtMjc3NS0wYWZlYjYxYTY1N2YmaW5zaWQ9NTIxOA&ptn=3&hsh=3&fclid=2e4a1bbc-b7b2-640f-2775-0afeb61a657f&psq=mCash&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWluLm1jYXNoLmFwcCZnbD1VUw&ntb=1" target="_blank" class="btn btn-outline-light">Get Coins</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex  justify-content-center mb-sm-5">
+          <div class="card m-2 cb1 text-center" style="width: 18rem">
+            <!-- <img src="..." class="card-img-top" alt="..." /> -->
+            <i class="fa-solid fa-bolt fa-2xl  mb-3"></i>
+            <div class="card-body">
+              <h5 class="card-title">Buzz Offers</h5>
+
+              <p class="card-text">
+                Complete Buzz Offers to get coins
+              </p>
+              <a href="#" class="btn btn-outline-light">Get Coins</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 d-flex  justify-content-center mb-sm-5">
+          <div class="card m-2 cb1 text-center" style="width: 18rem">
+            <!-- <img src="..." class="card-img-top" alt="..." /> -->
+
+            <i class="fa-solid fa-clock fa-2xl mb-3"></i>
+
+            <div class="card-body">
+              <h5 class="card-title">Limited Offers</h5>
+
+              <p class="card-text">
+                Limited Offers to get coins
+              </p>
+              <a href="https://www.bing.com/ck/a?!&&p=bdb8c9f601acd46aJmltdHM9MTY3MTE0ODgwMCZpZ3VpZD0yZTRhMWJiYy1iN2IyLTY0MGYtMjc3NS0wYWZlYjYxYTY1N2YmaW5zaWQ9NTIxOA&ptn=3&hsh=3&fclid=2e4a1bbc-b7b2-640f-2775-0afeb61a657f&psq=mCash&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWluLm1jYXNoLmFwcCZnbD1VUw&ntb=1" target="_blank" class="btn btn-outline-light">Get Coins</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- online games  -->
+    <div class="container my-5 d-grid gap-3 ">
+      
+      <center>  <h1 class="mb-5" id="games">Online Games</h1></center>
+   
+      <div class="row ">
+        
+        <div class="col-md-4 d-flex  justify-content-center mb-sm-5">
+          <div class="card m-2 cb1 text-center" style="width: 18rem">
+            
+            <img src="./img/vide.jpg" class="card-img-top" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title">Video Games</h5>
+
+              <p class="card-text">
+               Complete Tasks to get coins
+              </p>
+              <a href="https://www.bing.com/ck/a?!&&p=bdb8c9f601acd46aJmltdHM9MTY3MTE0ODgwMCZpZ3VpZD0yZTRhMWJiYy1iN2IyLTY0MGYtMjc3NS0wYWZlYjYxYTY1N2YmaW5zaWQ9NTIxOA&ptn=3&hsh=3&fclid=2e4a1bbc-b7b2-640f-2775-0afeb61a657f&psq=mCash&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWluLm1jYXNoLmFwcCZnbD1VUw&ntb=1" target="_blank" class="btn btn-outline-light">Play</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex  justify-content-center mb-sm-5">
+          <div class="card m-2 cb1 text-center" style="width: 18rem">
+            <img src="./img/sports.jpg" class="card-img-top" alt="..." />
+            
+            <div class="card-body">
+              <h5 class="card-title">Sports Games</h5>
+
+              <p class="card-text">
+                Complete Buzz Offers to get coins
+              </p>
+              <a href="https://www.bing.com/ck/a?!&&p=bdb8c9f601acd46aJmltdHM9MTY3MTE0ODgwMCZpZ3VpZD0yZTRhMWJiYy1iN2IyLTY0MGYtMjc3NS0wYWZlYjYxYTY1N2YmaW5zaWQ9NTIxOA&ptn=3&hsh=3&fclid=2e4a1bbc-b7b2-640f-2775-0afeb61a657f&psq=mCash&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWluLm1jYXNoLmFwcCZnbD1VUw&ntb=1" target="_blank" class="btn btn-outline-light">Play</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 d-flex  justify-content-center mb-sm-5">
+          <div class="card m-2 cb1 text-center" style="width: 18rem">
+            <img src="./img/action.jpg" class="card-img-top" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title">Action Games</h5>
+
+              <p class="card-text">
+                Limited Offers to get coins
+              </p>
+              <a href="https://www.bing.com/ck/a?!&&p=bdb8c9f601acd46aJmltdHM9MTY3MTE0ODgwMCZpZ3VpZD0yZTRhMWJiYy1iN2IyLTY0MGYtMjc3NS0wYWZlYjYxYTY1N2YmaW5zaWQ9NTIxOA&ptn=3&hsh=3&fclid=2e4a1bbc-b7b2-640f-2775-0afeb61a657f&psq=mCash&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWluLm1jYXNoLmFwcCZnbD1VUw&ntb=1" target="_blank" class="btn btn-outline-light">Play</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- FAQs  -->
+  
+
+
+    <!-- footer  -->
+
+   <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 ">&copy; 2021 mCash, Inc</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <img src="./img/logo.png" class="img1" alt="..." />
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-info m-2" href="https://www.bing.com/ck/a?!&&p=bdb8c9f601acd46aJmltdHM9MTY3MTE0ODgwMCZpZ3VpZD0yZTRhMWJiYy1iN2IyLTY0MGYtMjc3NS0wYWZlYjYxYTY1N2YmaW5zaWQ9NTIxOA&ptn=3&hsh=3&fclid=2e4a1bbc-b7b2-640f-2775-0afeb61a657f&psq=mCash&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWluLm1jYXNoLmFwcCZnbD1VUw&ntb=1" target="_blank"><i class="fa-brands fa-linkedin fa-2xl fa-bounce"></i></a></li>
+      <li class="ms-3"><a class="text-primary m-2" href="https://www.bing.com/ck/a?!&&p=bdb8c9f601acd46aJmltdHM9MTY3MTE0ODgwMCZpZ3VpZD0yZTRhMWJiYy1iN2IyLTY0MGYtMjc3NS0wYWZlYjYxYTY1N2YmaW5zaWQ9NTIxOA&ptn=3&hsh=3&fclid=2e4a1bbc-b7b2-640f-2775-0afeb61a657f&psq=mCash&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWluLm1jYXNoLmFwcCZnbD1VUw&ntb=1" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl fa-bounce"></i></i></a></li>
+      <li class="ms-3"><a class="text-danger m-2" href="https://www.bing.com/ck/a?!&&p=bdb8c9f601acd46aJmltdHM9MTY3MTE0ODgwMCZpZ3VpZD0yZTRhMWJiYy1iN2IyLTY0MGYtMjc3NS0wYWZlYjYxYTY1N2YmaW5zaWQ9NTIxOA&ptn=3&hsh=3&fclid=2e4a1bbc-b7b2-640f-2775-0afeb61a657f&psq=mCash&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWluLm1jYXNoLmFwcCZnbD1VUw&ntb=1" target="_blank"><i class="fa-brands fa-instagram fa-2xl fa-bounce"></i></a></li>
+    </ul>
+  </footer>
+</div>
+
+    <!-- javascripts  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      var nav = document.querySelector("nav");
+
+      window.addEventListener("scroll", function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add("bg-dark", "shadow");
+        } else {
+          nav.classList.remove("bg-dark", "shadow");
+        }
+
+        // if (window.pageYOffset < 100) {
+        //   nav.classList.remove("bg-dark", "shadow");
+        // } else {
+        //   nav.classList.add("bg-dark", "shadow");
+        // }
+      });
+    </script>
+  </body>
+</html>
